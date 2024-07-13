@@ -164,7 +164,7 @@ export function renderOrderSummery() {
         return;
       }
 
-      updateQuantity(productId, newQuantity);
+       updateQuantity(productId, newQuantity);
 
       renderCheckoutHeader();
       renderOrderSummery();
